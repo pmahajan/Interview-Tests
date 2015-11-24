@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol viewControllerDelegate <NSObject>
+-(void)setImageOnView:(UIImage *)image;
+
+@end
+
+
 @interface ViewController : UIViewController
 
 
